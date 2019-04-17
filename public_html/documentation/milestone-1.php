@@ -18,8 +18,8 @@
 		<h2>Persona</h2>
 			<p><b>Name: </b>Jeffery H. Donaldson</p>
 			<p><b>Age: </b>29</p>
-			<p><b>Profession: </b>Lead Hiring Manager at Rural Sourcing in Albuquerque, NM. Rural Sourcing is looking to
-				hire a full-time full-stack web developer to work at their location on Silver and 8th Street.
+			<p><b>Profession: </b>Lead Hiring Manager at Rural Sourcing in Albuquerque, NM. Rural Sourcing is always looking to
+				hire full-time full-stack web developers to work at their location on Silver and 8th Street.
 				The company focuses on creating and managing web applications for small to medium sized business,
 				providing a reliable service that is affordably priced. Jeffery is the lead manager charged with
 				maintaining the proper amount of developers to continue operations.</p>
@@ -39,7 +39,7 @@
 				bottom line. Jeffery averages a 40 hour week, preferring to work from home most days. He spends his time
 				reaching out to local talent on LinkedIn, reading through local developers code on GitHub, and browsing
 				portfolio websites of developers he finds that have well written code.</p>
-			<p><b>Frustrations and Needs:</b> Jeffery needs to hire two full-time full-stack web developers for their
+			<p><b>Frustrations and Needs: </b>Jeffery needs to hire two full-time full-stack web developers for their
 				Analyst 1 portions that became available this week that need to be filled within the next 3 weeks.
 				Most developers tend to want to move out of State, so most of the top talent ends up leaving the
 				Albuquerque area. Jeffery must find the best that are still around or who are willing to relocate.</p>
