@@ -7,3 +7,19 @@ Great work here - your Purpose, Audience, Goal and Persona are thoughtful, detai
 Your project and files are all set up to spec and your code looks great - nice work.
 
 Your Milestone 1 passes at Tier IV. You are now clear to begin work on Milestone 2α.
+
+
+## Milestone 2 Feedback
+Nice work on these wireframes and accompanying content strategy - your design ideas are clear and well-defined. This will provide you with a good guide for your development phase ahead.
+
+For the portfolio section of your site I would suggest using an interactive gallery such as [Fancy Box](http://fancyapps.com/fancybox/3/)
+
+Additional recommendations:
+
+    Google Fonts for custom typography - it has ~1000 fonts and is easy to integrate.
+    Bootstrap will have all the documentation you need for generating a quick layout for your site.
+    FontAwesome is a good quality free library for including iconography.
+
+You might want to read ahead regarding the contact form integration, and that documentation is here: https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/
+
+Your Milestone 2a passes at Tier IV. You are now clear to begin development on your PWP. Looking forward to seeing your project take shape!
