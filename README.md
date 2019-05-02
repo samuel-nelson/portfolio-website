@@ -13,6 +13,7 @@ Your Milestone 1 passes at Tier IV. You are now clear to begin work on Milestone
 Nice work on these wireframes and accompanying content strategy - your design ideas are clear and well-defined. This will provide you with a good guide for your development phase ahead.
 
 For the portfolio section of your site I would suggest using an interactive gallery such as [Fancy Box](http://fancyapps.com/fancybox/3/)
+You might also want to take a look at this here if you're also looking at making your photos have some animation: https://tympanus.net/Development/HoverEffectIdeas/index.html
 
 Additional recommendations:
 
