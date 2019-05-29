@@ -11,7 +11,7 @@ services:
          - "443:443"
       volumes:
          - ./production.conf:/etc/nginx/conf.d/default.conf
-         - ./production-site:/usr/share/nginx/html
+         - ./public_html:/usr/share/nginx/html
          - ./dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
-         - /docker-volumes/pwp/etc/letsencrypt/live/hiresamuel.com/fullchain.pem:/etc/letsencrypt/live/hiresamuel.com/fullchain.pem
-         - /docker-volumes/pwp/etc/letsencrypt/live/hiresamuel.com/privkey.pem:/etc/letsencrypt/live/hiresamuel.com/privkey.pem
+         - /docker-volumes/pwp/etc/letsencrypt/live/www.hiresamuel.com/fullchain.pem:/etc/letsencrypt/live/www.hiresamuel.com/fullchain.pem
+         - /docker-volumes/pwp/etc/letsencrypt/live/www.hiresamuel.com/privkey.pem:/etc/letsencrypt/live/www.hiresamuel.com/privkey.pem
