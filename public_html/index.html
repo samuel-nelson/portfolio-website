@@ -35,6 +35,9 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
+		<!-- Parallax -->
+		<script src="/public_html/libs/parallax.js-1.5.0/parallax.js"></script>
+
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -82,17 +85,13 @@
 				</div>
 			</div>
 		</div>
+		<div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="/Users/vanadium/Desktop/bootcamp/portfolio-website/public_html/images/bright.jpg" data-natural-width="1400" data-natural-height="1400" style="height: 431px;"></div>
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
 				<h1 class="display-4 content-align-right">Portfolio</h1>
 				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et quam vehicula, dignissim ligula a, ornare ligula. Aenean eget lectus aliquet, condimentum nibh ut, condimentum eros. Aenean a volutpat risus. </p>
 				<a data-fancybox="gallery" href="images/bright.jpg"><img src="images/bright.jpg"></a>
 				<a data-fancybox="gallery" href="images/clouds.jpg"><img src="images/clouds.jpg"></a>
-			</div>
-		</div>
-		<div class="card bg-dark text-dark border-0">
-			<img class="card-img img-fluid" src="images/clouds-small.jpg" alt="Card image">
-			<div class="card-img-overlay">
 			</div>
 		</div>
 <!--		<section id="Contact">-->
@@ -113,9 +112,8 @@
 		<main class="container pb-5">
 			<div class="row">
 				<div class="col-md-6">
-
 					<!-- BEGIN CONTACT FORM -->
-					<form id="contact-form"  method="post" action="../php/mailer.php" class="justify-content-center">
+					<form id="contact-form"  method="post" action="https://formspree.io/snelson54@cnm.edu">
 						<div class="form-group">
 							<label for="name">Name</label>
 							<div class="input-group">
