@@ -1,6 +1,6 @@
 <?php
 /**
- * mailer.php
+ * index.php
  *
  * This file handles secure mail transport using the Swiftmailer
  * library with Google reCAPTCHA integration.
@@ -32,6 +32,7 @@ try {
 	 * so we're using the $_POST superglobal.
 	 **/
 
+	var_dump($_POST);
 
 
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
