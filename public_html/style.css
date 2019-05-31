@@ -65,3 +65,7 @@ section {
 #skills {
 	margin: 10px;
 }
+
+#form {
+	margin-top: 3rem !important;
+}
