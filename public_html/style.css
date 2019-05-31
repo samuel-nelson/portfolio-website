@@ -45,6 +45,7 @@ input[type=submit]:hover {
 
 body, html {
 	height: 100%;
+	font-family: 'Raleway', sans-serif;
 }
 
 section {
@@ -62,5 +63,5 @@ section {
 }
 
 #skills {
-	margin: 0px;
+	margin: 10px;
 }
