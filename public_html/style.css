@@ -31,26 +31,26 @@ input[type=submit]:hover {
 	background-color: #E5846F;
 }
 
-/*!* background color and padding around the form *!*/
-/*.container {*/
-/*	border-radius: 5px;*/
-/*	background-color: #f2f2f2;*/
-/*	padding: 20px;*/
-/*}*/
+/* background color and padding around the form */
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
 
-/*.contact	{*/
-/*	padding-bottom: 10px*/
-/*;*/
-/*}*/
+.contact	{
+	padding-bottom: 10px
+;
+}
 
-/*body, html {*/
-/*	height: 100%;*/
-/*}*/
+body, html {
+	height: 100%;
+}
 
-/*section {*/
-/*	padding: 25px 0 35px;*/
-/*	background: #fff;*/
-/*}*/
+section {
+	padding: 25px 0 35px;
+	background: #fff;
+}
 
 .body {
 	background: transparent;
@@ -59,4 +59,8 @@ input[type=submit]:hover {
 .parallax-window {
 	min-height: 400px;
 	background: transparent;
+}
+
+#skills {
+	margin: 0px;
 }
