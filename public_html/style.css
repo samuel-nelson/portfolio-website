@@ -74,6 +74,10 @@ section {
 	margin: 0px;
 }
 
+#titleText {
+	margin-top: 6rem;
+}
+
 /*#titleBackground {*/
 /*	background-image:*/
 /*		linear-gradient(*/
