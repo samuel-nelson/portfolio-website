@@ -67,5 +67,9 @@ section {
 }
 
 #form {
-	margin-top: 3rem !important;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+#MyWork {
+	margin: 0px;
 }
