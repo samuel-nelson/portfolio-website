@@ -3,7 +3,7 @@
 	<head>
 		<!-- Required META tags -->
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Bootstrap Challenge</title>
 
 		<!-- Devicon icons -->
@@ -61,9 +61,9 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-item nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
-					<a class="nav-item nav-link" href="#">Portfolio</a>
-					<a class="nav-item nav-link" href="#">Contact</a>
+					<a class="nav-item nav-link active" href="#skills">My Skills <span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="#MyWork">My Work</a>
+					<a class="nav-item nav-link" href="#form">Contact Me</a>
 				</div>
 			</div>
 		</nav>
@@ -72,7 +72,11 @@
 			  style="height: 650px;">
 			<div class="card bg-dark text-white text-border-dark border-0">
 				<div class="card-img-overlay">
-					<h1 class="card-title text-center">Samuel Nelson</h1>
+					<!-- Change Margin/padding instead of br tags -->
+					<br>
+					<br>
+					<br>
+					<h1 class="card-title text-center" id="title">Samuel Nelson</h1>
 					<p class="card-text text-center">I’m a web developer who writes code utilizing the LAMP stack, Agile/Scrum
 						methodology, and Git version control. I am always learning new tech.</p>
 				</div>
@@ -116,7 +120,7 @@
 			  style="height: 500px;"></div>
 		<div class="jumbotron jumbotron-fluid" id="MyWork">
 			<div class="container-fluid">
-				<h1 class="display-4 content-align-right">My Work</h1>
+				<h6 class="display-4">My Work</h6>
 				<p class="lead">Checkout my projects on <a href="https://github.com/samuel-nelson" target="_blank">Github</a> and connect with me on <a href="https://www.linkedin.com/in/samuel-nelson/" target="_blank">LinkedIn</a></p>
 				<p>My main project so far is a web application I developed with my team while an intern at Deep Dive Coding. The Website is a cookbook that allows users to find new recipes and upload their own to share with other users on the site. The name is <a href="https://github.com/the-catz-pajamaz/scraps-to-scrumptious" target="_blank">Scraps To Scrumptious</a>.</p>
 
@@ -143,6 +147,7 @@
 			  data-image-src="images/darkmountain.jpg" data-natural-width="1920" data-natural-height="1280"
 			  style="height: 400px;"></div>
 		<main class="container" id="form">
+			<h6 class="display-4 center">Contact Me</h6>
 			<div class="row">
 				<div class="col-sm-6 offset-sm-3">
 					<!-- BEGIN CONTACT FORM -->
@@ -197,8 +202,7 @@
 		<footer class="bg-dark small text-center text-white py-3">
 			<div>
 				<!-- in your body -->
-				<i class="devicon-github-plain font-size: 6rem"></i>
-				this is my footer
+				<i class="devicon-github-plain font-size: 6rem"><a href="https://github.com/samuel-nelson/portfolio-website" class="text-white"> Checkout this website on GitHub</a></i>
 			</div>
 		</footer>
 	</body>
